@@ -43,7 +43,7 @@ enum { // primitives
 // arithmetic and friends
 	opAdd, opSubtract, opNegate,
 	opMultiply, opDivide, opReciprocal, opMod, opRem,
-	opSquare, opSqrt,
+	opSqrt,
 	opExponent,
 	opIsInteger,
 	opFloor, opCeiling, opRound,
