@@ -362,7 +362,6 @@ void GBStackBrain::ExecutePrimitive(GBSymbolIndex index, GBRobot * robot, GBWorl
 		case opReciprocal: Push(GBNumber(1) / Pop()); break;
 		case opMod: TwoNumberToNumberOp(&GBNumber::Mod); break;
 		case opRem: TwoNumberToNumberOp(&GBNumber::Rem); break;
-		case opSquare: NumberToNumberOp(&GBNumber::Square); break;
 		case opSqrt: NumberToNumberOp(&GBNumber::Sqrt); break;
 		case opExponent: TwoNumberToNumberOp(&GBNumber::Exponent); break;
 		case opIsInteger: PushBoolean(Pop().IsInteger()); break;

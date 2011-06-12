@@ -27,7 +27,7 @@ const string primitiveNames[kNumPrimitives] = {
 // arithmetic &c.
 	"+", "-", "negate",
 	"*", "/", "reciprocal", "mod", "rem",
-	"square", "sqrt",
+	"sqrt",
 	"exponent",
 	"is-integer",
 	"floor", "ceiling", "round",
